@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="price">
+  <header>
+    <div class="container">
+       <nav class="top-menu ul-menu">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Новости</a></li>
+          <li class="active"><a href="price.html">Прайс-лист</a></li>
+          <li><a href="shop.html">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="login.html" class="enter" id="enter">Вход</a>
+      </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="content clearfix">
+        <h2>Прайс-лист</h2>
+        <div>
+          <ul class="breadcrumbs">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">Прайс-лист</a></li>
+          </ul>
+        </div>
+        <div class="promo icon">Истинно мужская классика</div>
+        <div class="prices">
+          <div class="prices-item">
+            <h3>Мы используем только<br>лучшие средства:</h3>
+            <ul class="products no-bullet-list">
+              <li>Baxter of california</li>
+              <li>Mr Nutty</li>
+              <li>Suavecito</li>
+              <li>Malin+Goetz</li>
+            </ul>
+            <h3>Несколько слов о нас:</h3>
+            <p class="promo-text">Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
+          </div>
+          <div class="prices-item">
+            <h3>ЦЕНЫ НА УСЛУГИ<br>НАШИХ МАСТЕРОВ:</h3>
+            <table class="prices-list">
+              <tr>
+                <td>Стрижка</td><td>1500 р.</td>
+              </tr>
+              <tr>
+                <td>Стрижка бороды</td><td>300 р.</td>
+              </tr>
+              <tr>
+                <td>Накрутка усов</td><td>350 р.</td>
+              </tr>
+            </table>
+            <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container clearfix">
+      <section class="contacts left">
+        Барбершоп "Бородинский"<br>
+        Адрес: г.Санкст-Петербург,ул.Б.Конюшенная,д.19/8<br>
+        <a href="#">Как нас найти?</a><br>
+        Телефон: +7(495) 666-02-66
+      </section>
+      <section class="author right">
+        <p>Разработано:</p>
+        <a href="#" class="btn btn-std">htmlacademy.ru</a>
+      </section>
+      <section class="socials-container">
+        <p>Давайте дружить!</p>
+        <div class="socials">
+          <a class="social btn vk" href="#">ВКонтакте</a>
+          <a class="social btn fb" href="#">Фейсбук</a>
+          <a class="social btn in" href="#">Инстаграмм</a>
+        </div>
+      </section>
+    </div>
+  </footer>
+  <section class="login hidden" id="login">
+    <h2>Личный кабинет</h2>
+    <p>Введите пожалуйста свой логин и пароль<br>Если вы забыли пароль</p>
+    <form action="#" method="post" name="form-login">
+      <input class="name" type="text" placeholder="Логин" name="name"><i class="icon"></i>
+      <input class="password" type="password" placeholder="Пароль" name="pass"><i class="icon"></i>
+      <input type="checkbox" id="remember" name="remember" checked hidden>
+      <label for="remember" class="remember">Запомните меня</label>
+      <a href="#" class="forgot icon">Я забыл пароль!</a>
+      <button class="btn btn-wide" type="submit">Войти</button>
+    </form>
+    <div class="close icon"></div>
+  </section>
+
+  <div class="overlay hidden" id="overlay"></div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

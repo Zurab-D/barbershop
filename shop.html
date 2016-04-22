@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="shop">
+  <header>
+    <div class="container">
+       <nav class="top-menu ul-menu">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="price.html">Прайс-лист</a></li>
+          <li class="active"><a href="shop.html">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="login.html" class="enter" id="enter">Вход</a>
+      </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="content clearfix">
+        <h2>Средства для ухода</h2>
+        <div>
+          <ul class="breadcrumbs">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="shop.html">Средства для ухода</a></li>
+          </ul>
+        </div>
+        <aside class="filter">
+          <form action="#" method="post">
+            <h3>Производители</h3>
+            <ul class="brands no-bullet-list">
+              <li>
+                <input class="brands-cb" id="baxter" type="checkbox" name="brands[]" hidden checked>
+                <label for="baxter">BAXTER OF CALIFORNIA</label>
+              </li>
+              <li>
+                <input class="brands-cb" id="natty" type="checkbox" name="brands[]" hidden>
+                <label for="natty">MR NATTY</label>
+              </li>
+              <li>
+                <input class="brands-cb" id="suavecito" type="checkbox" name="brands[]" hidden checked>
+                <label for="suavecito">SUAVECITO</label>
+              </li>
+              <li>
+                <input class="brands-cb" id="malin" type="checkbox" name="brands[]" hidden>
+                <label for="malin">MALIN+GOETZ</label>
+              </li>
+              <li>
+                <input class="brands-cb" id="murrays" type="checkbox" name="brands[]" hidden>
+                <label for="murrays">MURRAY'S</label>
+              </li>
+              <li>
+                <input class="brands-cb" id="ac" type="checkbox" name="brands[]" hidden checked>
+                <label for="ac">AMERICAN CREW</label>
+              </li>
+            </ul>
+            <h3>Группы товаров:</h3>
+            <ul class="goods-groups no-bullet-list">
+              <li>
+                <input class="goods-radio" type="radio" id="r1" name="goods-group" value="1" hidden checked>
+                <label for="r1">Бритвенные принадлежности</label>
+              </li>
+              <li>
+                <input class="goods-radio" type="radio" id="r2" name="goods-group" value="2" hidden>
+                <label for="r2">Средства для ухода</label>
+              </li>
+              <li>
+                <input class="goods-radio" type="radio" id="r3" name="goods-group" value="3" hidden>
+                <label for="r3">Аксессуары</label>
+              </li>
+            </ul>
+            <button class="show btn" type="submit">Показать</button>
+          </form>
+        </aside>
+        <section class="goods">
+          <article class="goods-item">
+            <a class="item-link" href="item.html">
+              <figure>
+                <img src="img/pic-1.jpg" alt="" width="220" height="165">
+                <figcaption>Набор для путешествий<br>"BAXTER OF CALIFIRNIA"</figcaption>
+              </figure>
+            </a>
+            <span class="price-box">2 900 руб.</span><a href="#" class="btn buy">Купить</a>
+          </article>
+          <article class="goods-item">
+            <a href="item.html" class="item-link">
+              <figure>
+                <img src="img/pic-2.jpg" alt="" width="220" height="165">
+                <figcaption>Увлажняющий кондиционер<br>"BAXTER OF CALIFIRNIA"</figcaption>
+              </figure>
+            </a>
+            <span class="price-box">750 руб.</span><a href="#" class="btn buy">Купить</a>
+          </article>
+          <article class="goods-item">
+            <a href="item.html" class="item-link">
+              <figure>
+                <img src="img/pic-3.jpg" alt="" width="220" height="165">
+                <figcaption>Гель для волос<br>"SUAVETICO"</figcaption>
+              </figure>
+            </a>
+            <span class="price-box">290 руб.</span><a href="#" class="btn buy">Купить</a>
+          </article>
+          <article class="goods-item">
+            <a href="item.html" class="item-link">
+              <figure>
+                <img src="img/pic-4.jpg" alt="" width="220" height="165">
+                <figcaption>Глина для укладки волос<br>"AMERICAN CREW"</figcaption>
+              </figure>
+            </a>
+            <span class="price-box">500 руб.</span><a href="#" class="btn buy">Купить</a>
+          </article>
+          <article class="goods-item">
+            <a href="item.html" class="item-link">
+              <figure>
+                <img src="img/pic-5.jpg" alt="" width="220" height="165">
+                <figcaption>Гель для волос<br>"AMERICAN CREW"</figcaption>
+              </figure>
+            </a>
+            <span class="price-box">300 руб.</span><a href="#" class="btn buy">Купить</a>
+          </article>
+          <article class="goods-item">
+            <a href="item.html" class="item-link">
+              <figure>
+                <img src="img/pic-6.jpg" alt="" width="220" height="165">
+                <figcaption>Набор для бритья<br>"BAXTER OF CALIFIRNIA"</figcaption>
+              </figure>
+            </a>
+            <span class="price-box"> руб.</span><a href="#" class="btn buy">Купить</a>
+          </article>
+          <ul class="pages">
+            <li><a href="#" class="btn">1</a></li
+            ><li><a href="#" class="btn active">2</a></li
+            ><li><a href="#" class="btn">3</a></li
+            ><li><a href="#" class="btn">4</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container clearfix">
+      <section class="contacts left">
+        Барбершоп "Бородинский"<br>
+        Адрес: г.Санкст-Петербург,ул.Б.Конюшенная,д.19/8<br>
+        <a href="#">Как нас найти?</a><br>
+        Телефон: +7(495) 666-02-66
+      </section>
+      <section class="author right">
+        <p>Разработано:</p>
+        <a href="#" class="btn btn-std">htmlacademy.ru</a>
+      </section>
+      <section class="socials-container">
+        <p>Давайте дружить!</p>
+        <div class="socials">
+          <a class="social btn vk" href="#">ВКонтакте</a>
+          <a class="social btn fb" href="#">Фейсбук</a>
+          <a class="social btn in" href="#">Инстаграмм</a>
+        </div>
+      </section>
+    </div>
+  </footer>
+  <section class="login hidden" id="login">
+    <h2>Личный кабинет</h2>
+    <p>Введите пожалуйста свой логин и пароль<br>Если вы забыли пароль</p>
+    <form action="#" method="post" name="form-login">
+      <input class="name" type="text" placeholder="Логин" name="name"><i class="icon"></i>
+      <input class="password" type="password" placeholder="Пароль" name="pass"><i class="icon"></i>
+      <input type="checkbox" id="remember" name="remember" checked hidden>
+      <label for="remember" class="remember">Запомните меня</label>
+      <a href="#" class="forgot icon">Я забыл пароль!</a>
+      <button class="btn btn-wide" type="submit">Войти</button>
+    </form>
+    <div class="close icon"></div>
+  </section>
+
+  <div class="overlay hidden" id="overlay"></div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

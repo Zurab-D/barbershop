@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="item">
+  <header>
+    <div class="container">
+       <nav class="top-menu ul-menu">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="price.html">Прайс-лист</a></li>
+          <li class="active"><a href="shop.html">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="login.html" class="enter" id="enter">Вход</a>
+      </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="content clearfix">
+        <h2>Набор для путешествий &laquo;Baxter of california&raquo;</h2>
+        <div>
+          <ul class="breadcrumbs">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="shop.html">Средства для ухода</a></li>
+            <li><a href="shop.html">Набор для путешествий &laquo;Baxter of california&raquo;</a></li>
+          </ul>
+        </div>
+        <article class="cover">
+          <section>
+            <input id="gal_radio_1" class="gal-radio" type="radio" name="gal-radio" checked>
+            <input id="gal_radio_2" class="gal-radio" type="radio" name="gal-radio">
+            <input id="gal_radio_3" class="gal-radio" type="radio" name="gal-radio">
+            <div class="gallery-items">
+              <div class="gallery-item">
+                <img src="img/baxter1.jpg" alt="" width="486" height="241">
+              </div>
+              <div class="gallery-item">
+                <img src="img/baxter2.jpg" alt="" width="485" height="291">
+              </div>
+              <div class="gallery-item">
+                <img src="img/baxter3.jpg" alt="" width="486" height="524">
+              </div>
+            </div>
+            <div class="gallery-preview">
+              <div id="gal_preview_1" class="gallery-preview-item">
+                <img src="img/baxter1-small.jpg" alt="" width="142">
+              </div>
+              <div id="gal_preview_2" class="gallery-preview-item">
+                <img src="img/baxter2-small.jpg" alt="" width="142">
+              </div>
+              <div id="gal_preview_3" class="gallery-preview-item">
+                <img src="img/baxter3-small.jpg" alt="" width="142">
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="product-article clearfix">
+              <span class="left">Есть в наличии</span>
+              <span class="right">Артикул: DEXTER-AE</span>
+            </div>
+            <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+            <div>
+              <span class="price-box">2 900 руб.</span><a href="" class="btn buy">Купить</a>
+            </div>
+            <h3 class="product-consist">В набор входят</h3>
+            <ul class="products no-bullet-list">
+              <li>Средство для умывания (50 мл)</li>
+              <li>Увлажняющий крем (50 мл)</li>
+              <li>Крем для бритья (50 мл)</li>
+              <li>Крем после бритья, шампунь (50 мл)</li>
+              <li>Удобная кожаная косметичка</li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container clearfix">
+      <section class="contacts left">
+        Барбершоп "Бородинский"<br>
+        Адрес: г.Санкст-Петербург,ул.Б.Конюшенная,д.19/8<br>
+        <a href="#">Как нас найти?</a><br>
+        Телефон: +7(495) 666-02-66
+      </section>
+      <section class="author right">
+        <p>Разработано:</p>
+        <a href="#" class="btn btn-std">htmlacademy.ru</a>
+      </section>
+      <section class="socials-container">
+        <p>Давайте дружить!</p>
+        <div class="socials">
+          <a class="social btn vk" href="#">ВКонтакте</a>
+          <a class="social btn fb" href="#">Фейсбук</a>
+          <a class="social btn in" href="#">Инстаграмм</a>
+        </div>
+      </section>
+    </div>
+  </footer>
+  <section class="login hidden" id="login">
+    <h2>Личный кабинет</h2>
+    <p>Введите пожалуйста свой логин и пароль<br>Если вы забыли пароль</p>
+    <form action="#" method="post" name="form-login">
+      <input class="name" type="text" placeholder="Логин" name="name"><i class="icon"></i>
+      <input class="password" type="password" placeholder="Пароль" name="pass"><i class="icon"></i>
+      <input type="checkbox" id="remember" name="remember" checked hidden>
+      <label for="remember" class="remember">Запомните меня</label>
+      <a href="#" class="forgot icon">Я забыл пароль!</a>
+      <button class="btn btn-wide" type="submit">Войти</button>
+    </form>
+    <div class="close icon"></div>
+  </section>
+
+  <div class="overlay hidden" id="overlay"></div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
