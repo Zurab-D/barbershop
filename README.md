@@ -1,4 +1,4 @@
-# Training project Barbershop [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Training project Barbershop
 
 * Student: [Zurab Diakonashvili](https://htmlacademy.ru/profile/id86410).
 * Tutor: [Anton Popov](https://htmlacademy.ru/profile/joker).
